@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: hsl(30, 38%, 92%);
+}
+.cube {
+   width: 100vw;
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cube-body {
+   display: flex;
+   width: 700px;
+   border-radius: 20px;
+   background-color: white;
+}
+img {
+   width: 50%;
+   height: auto;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.product-details {
+   width: 50%;
+   height: auto;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   padding: 30px;
+}
+.product-details > * {
+   margin-top: 25px;
+}
+.product-details > .title{
+   margin-top: 0px;
+}
+.title {
+ letter-spacing: 5px;
+ font-weight: 500;
+}
+.title-2 {
+   word-spacing: 3px;
+   font-size: 48px;
+   line-height: 48px;
+}
+h1 {
+   font-family: 'Fraunces', serif;
+   font-weight: 700;
+}
+p {
+   text-align: left;
+   font-size: 20px;
+   font-weight: 500;
+   color: grey;
+}
+.price {
+   display: flex;
+   align-items: center;
+   column-gap: 20px;
+}
+.price .actual-price {
+   color: rgb(61, 129, 104);
+}
+.boutton {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+   word-spacing: 2px;
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(61, 129, 104);
+   padding: 20px;
+   width: 100%;
+}
+.boutton:hover {
+   cursor: pointer;
+   background-color: #a2d2ff;
+}
+.boutton:active {
+   background-color: rgb(26, 64, 49);
+}
